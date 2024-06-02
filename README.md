@@ -27,7 +27,20 @@
 5. 移動行動（トリップ）に対して、移動ルートと利用交通モードが推定される. 移動ルートや交通モードは、当該トリップ（OD）に対応した実際の人流データを元に推定される
 
 ## Generated Data
-- TBA
+- data specification 
+  - 5000 samples 
+  - 1 hour interval
+  - CSV text 
+  - header: 1 row
+  - delimiter: comma
+- CSV layout 
+  1. uid (string) 
+  2. lat (double)
+  3. lon (double) 
+  4. tiime (timestamp) 
+- download (gz) 
+  - [sample file](pseudo_data_sample.csv.gz)
 
 ## License 
-- TBA
+- CC BY-SA 
+- 生成モデルの学習データ提供元：ジオテクノロジーズ株式会社
